@@ -1,0 +1,18 @@
+{
+    "name": "jmaerckaert/candidate_webform",
+    "description": "Custom module to send webform to the candidate.",
+    "type": "drupal-custom-module",
+    "homepage": "https://github.com/jmaerckaert/candidate_webform",
+    "authors": [
+        {
+            "name": "Jonathan Maerckaert (jmaerckaert)",
+            "homepage": "https://github.com/jmaerckaert/",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/jmaerckaert/candidate_webform"
+    },
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev"
+}
