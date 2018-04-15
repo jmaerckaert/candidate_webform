@@ -28,7 +28,7 @@ class MyEmailWebformHandler extends EmailWebformHandler {
     $candidate_id = \Drupal::request()->query->get('candidate');
     $candidate = Node::load($candidate_id);
     $email = $candidate->get('field_candidate_email')->getValue();
-dpm($candidate_id);dpm($email);
+
     $message['to_mail'] = $email[0]['value'];
 
     parent::sendMessage($webform_submission, $message);
